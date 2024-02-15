@@ -1,0 +1,10 @@
+workspace = { members = ["runners/desktop"] }
+
+[package]
+name = "embedded_web"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+heapless = "0.8"
